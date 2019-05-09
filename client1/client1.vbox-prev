@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.16-windows">
-  <Machine uuid="{068a3dc7-0c26-45c8-a373-2bd9a97863ef}" name="client1" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2019-05-07T10:03:42Z">
+  <Machine uuid="{068a3dc7-0c26-45c8-a373-2bd9a97863ef}" name="client1" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2019-05-09T10:03:00Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{875baefb-d8c3-49f1-b053-5442859d2f93}" location="client1.vdi" format="VDI" type="Normal"/>
@@ -46,7 +46,7 @@
       <AudioAdapter codec="AD1980" driver="DirectSound" enabled="true" enabledIn="false"/>
       <RTC localOrUTC="UTC"/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="C" timestamp="1556791917404623600" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="C" timestamp="1557223419092040000" flags="RDONLYGUEST"/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
